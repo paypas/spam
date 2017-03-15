@@ -1,0 +1,15 @@
+dim wsh
+sum=30
+delay=1
+set wsh=wscript.createobject("wscript.shell")
+wscript.sleep 3000
+
+
+for i=1 to sum
+wsh.sendkeys "COT ðŸ–•"
+wsh.sendkeys "{ENTER}"
+wscript.sleep delay
+next
+
+
+'END
